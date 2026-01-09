@@ -11,7 +11,7 @@ branches:
   release:
     regex: ^release[/-]
     tag: ''
-    increment: Patch
+    increment: None
     source-branches: [develop]
     track-merge-target: false
     is-release-branch: true
