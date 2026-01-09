@@ -14,7 +14,6 @@ branches:
     increment: Patch
     source-branches: [develop]
     track-merge-target: false
-    versioning-mode: ContinuousDelivery
     is-release-branch: true
 
   feature:
