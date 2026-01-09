@@ -1,6 +1,5 @@
 mode: ContinuousDelivery
 tag-prefix: 'v'
-prevent-increment-of-merged-branch-version: true
 
 branches:
   develop:
