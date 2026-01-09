@@ -41,8 +41,8 @@ jobs:
 
           echo "Creating tag: $TAG"
 
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "ci"
+          git config user.email "ci@kavo.com"
 
           git tag -a "$TAG" -m "Release $TAG"
           git push origin "$TAG"
