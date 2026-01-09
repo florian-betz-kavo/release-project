@@ -9,8 +9,6 @@ on:
       - 'release/**'
     tags:
       - v*
-    tags-ignore: 
-      - 'v*-*'
 
 permissions:
   contents: write
