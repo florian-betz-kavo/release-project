@@ -11,8 +11,8 @@ branches:
   release:
     regex: ^release[/-]
     tag: ''
-    increment: Inherit
-    source-branches: [develop]
+    increment: Patch
+    prevent-increment-of-merged-branch-version: false
 
   feature:
     regex: ^features?[/-]
