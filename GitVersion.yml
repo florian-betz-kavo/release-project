@@ -1,0 +1,28 @@
+mode: ContinuousDelivery
+tag-prefix: 'v'
+prevent-increment-of-merged-branch-version: true
+
+branches:
+  develop:
+    regex: ^develop$
+    tag: alpha
+    increment: Inherit
+    source-branches: [main, feature, bugfix]
+
+  release:
+    regex: ^release[/-]
+    tag: rc
+    increment: Inherit
+    source-branches: [develop]
+
+  feature:
+    regex: ^features?[/-]
+    tag: beta
+    increment: Inherit
+    source-branches: [develop]
+
+  bugfix:
+    regex: ^bugfix[/-]
+    tag: beta
+    increment: Inherit
+    source-branches: [develop]
