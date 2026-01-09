@@ -10,7 +10,7 @@ branches:
 
   release:
     regex: ^release[/-]
-    tag: ''
+    tag: 'rc'
     increment: None
     source-branches: [develop]
     track-merge-target: false
