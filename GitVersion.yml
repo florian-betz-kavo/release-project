@@ -12,7 +12,10 @@ branches:
     regex: ^release[/-]
     tag: ''
     increment: Patch
-    prevent-increment-of-merged-branch-version: false
+    source-branches: [develop]
+    track-merge-target: false
+    versioning-mode: ContinuousDelivery
+    is-release-branch: true
 
   feature:
     regex: ^features?[/-]
