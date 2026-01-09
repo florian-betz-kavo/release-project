@@ -10,7 +10,7 @@ branches:
 
   release:
     regex: ^release[/-]
-    tag: rc
+    tag: ''
     increment: Inherit
     source-branches: [develop]
 
